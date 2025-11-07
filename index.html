@@ -128,7 +128,7 @@
                 <small class="ms-2">0–200</small>
               </label>
               <div class="d-flex align-items-center gap-2">
-                <input type="range" id="gutter" class="form-range" min="0" max="200" step="1" value="8">
+                <input type="range" id="gutter" class="form-range" min="0" max="200" step="1" value="0">
                 <span class="badge bg-secondary"><span id="gutterVal" class="value-badge">8</span> px</span>
               </div>
               <div class="small-note">과도한 값은 출력 크기에 맞춰 자동으로 줄여 안전하게 적용됩니다.</div>
@@ -188,7 +188,7 @@
       rows: 3,
       widthPx: 2048,
       ratio: {w:1, h:1},
-      gutterPx: 8, // ★ 추가: 셀 간격(px)
+      gutterPx: 0, // ★ 추가: 셀 간격(px)
     };
 
     const $cols = $('#cols');
